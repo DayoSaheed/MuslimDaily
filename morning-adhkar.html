@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morning Adhkar - Daily Islamic Remembrance</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #fff;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+            text-decoration: none;
+        }
+
+        .page-header {
+            padding: 8rem 2rem 4rem;
+            text-align: center;
+            background: linear-gradient(135deg, #f1c40f 0%, #f39c12 100%);
+            color: white;
+        }
+
+        .adhkar-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .adhkar-card {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .adhkar-card h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .arabic-text {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+            line-height: 2;
+            text-align: right;
+            direction: rtl;
+        }
+
+        .transliteration {
+            color: #666;
+            margin: 1rem 0;
+            font-style: italic;
+        }
+
+        .translation {
+            color: #444;
+            margin: 1rem 0;
+            line-height: 1.6;
+        }
+
+        .repetition {
+            display: inline-block;
+            background-color: #f1c40f;
+            color: #2c3e50;
+            padding: 0.25rem 1rem;
+            border-radius: 20px;
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+
+        .reference {
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            font-style: italic;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: white;
+            color: #2c3e50;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        @media (max-width: 768px) {
+            .arabic-text {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <a href="index.html" class="logo">Muslim Adhkar</a>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Morning Adhkar</h1>
+        <p>أذكار الصباح</p>
+        <a href="index.html" class="back-button">Back to Home</a>
+    </header>
+
+    <div class="adhkar-container">
+        <div class="adhkar-card">
+            <h3>Verse of the Throne (Ayatul Kursi)</h3>
+            <div class="arabic-text">
+                اللَّهُ لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ
+            </div>
+            <div class="translation">
+                "Allah - there is no deity except Him, the Ever-Living, the Sustainer of existence. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is before them and what will be after them, and they encompass not a thing of His knowledge except for what He wills. His Kursi extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great."
+            </div>
+            <span class="repetition">Repeat: 1 time</span>
+            <div class="reference">Reference: Al-Baqarah 2:255</div>
+        </div>
+
+        <div class="adhkar-card">
+            <h3>Seeking Protection and Guidance</h3>
+            <div class="arabic-text">
+                أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَٰهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ
+            </div>
+            <div class="transliteration">
+                Asbahna wa asbahal mulku lillah walhamdu lillah, la ilaha illallah wahdahu la shareeka lah, lahul mulku wa lahul hamd, wa huwa 'ala kulli shay'in qadeer
+            </div>
+            <div class="translation">
+                "We have reached the morning and at this very time unto Allah belongs all sovereignty, and all praise is for Allah. None has the right to be worshipped except Allah, alone, without partner, to Him belongs all sovereignty and praise and He is over all things omnipotent."
+            </div>
+            <span class="repetition">Repeat: 1 time</span>
+            <div class="reference">Reference: Muslim</div>
+        </div>
+
+        <div class="adhkar-card">
+            <h3>Protection from Evil</h3>
+            <div class="arabic-text">
+                أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ
+            </div>
+            <div class="transliteration">
+                A'oodhu bi kalimaat'illahit-tammaati min sharri ma khalaq
+            </div>
+            <div class="translation">
+                "I seek refuge in Allah's perfect words from the evil of what He has created."
+            </div>
+            <span class="repetition">Repeat: 3 times</span>
+            <div class="reference">Reference: Muslim</div>
+        </div>
+
+        <div class="adhkar-card">
+            <h3>Seeking Forgiveness and Repentance</h3>
+            <div class="arabic-text">
+                أَسْتَغْفِرُ اللهَ وَأَتُوبُ إِلَيْهِ
+            </div>
+            <div class="transliteration">
+                Astaghfirullah wa atoobu ilaih
+            </div>
+            <div class="translation">
+                "I seek Allah's forgiveness and turn to Him in repentance."
+            </div>
+            <span class="repetition">Repeat: 100 times</span>
+            <div class="reference">Reference: Bukhari and Muslim</div>
+        </div>
+
+        <div class="adhkar-card">
+            <h3>The Last Three Surahs</h3>
+            <div class="arabic-text">
+                قُلْ هُوَ اللَّهُ أَحَدٌ ﴿١﴾ اللَّهُ الصَّمَدُ ﴿٢﴾ لَمْ يَلِدْ وَلَمْ يُولَدْ ﴿٣﴾ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ
+            </div>
+            <div class="translation">
+                "Say, He is Allah, [who is] One, Allah, the Eternal Refuge. He neither begets nor is born, Nor is there to Him any equivalent."
+            </div>
+            <span class="repetition">Repeat: 3 times</span>
+            <div class="reference">Reference: Surah Al-Ikhlas</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Muslim Adhkar. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
